@@ -4,7 +4,7 @@ global _start
 
 msg db 'Hello world', 0x0a
 
-len equ $ - mensagem
+len equ $ - msg
 
 _start:
     mov eax, 4 ;SYS_write
